@@ -21,7 +21,7 @@ const cards = [
     {class:'Credibility',front: 'Expertise', back: 'Provide information showing knowledge, experience, and competence', flipped: false, },
     {class:'Credibility',front: 'Surface Credibility', back: 'System should have competent look and feel', flipped: false, },
     {class:'Credibility',front: 'Real-World Feel', back: 'Provide information of the organization/people behind the content and services', flipped: false, },
-    {class:'Credibility',front: 'Autority', back: 'Refer to people of authority', flipped: false, },
+    {class:'Credibility',front: 'Authority', back: 'Refer to people of authority', flipped: false, },
     {class:'Credibility',front: '3rd party endorsements', back: 'Recommendations from other trusted entities counts', flipped: false, },
     {class:'Credibility',front: 'Verifiability', back: 'Provide means to verify claims by providing citations', flipped: false, },
 
