@@ -11,29 +11,30 @@
 <body>
   <div id="flashcard-app" class="container">
 
-    <h1>Flashcard App!</h1>
+    <h1>Persuasive Design Features</h1>
 
-    <div class="flashcard-form">
-      <label for="front">Front
-        <input v-model.trim="newFront" type="text" id="front">
-      </label>
-      <label for="back">Back
-        <input v-on:keypress.enter="addNew" v-model.trim="newBack" type="text" id="back">
-      </label>
-      <button v-on:click="addNew">Add a New Card</button>
-      <span class="error" v-show="error">Oops! Flashcards need a front and a back.</span>
-    </div>
+    <!--<div class="flashcard-form">-->
+      <!--<label for="front">Front-->
+        <!--<input v-model.trim="newFront" type="text" id="front">-->
+      <!--</label>-->
+      <!--<label for="back">Back-->
+        <!--<input v-on:keypress.enter="addNew" v-model.trim="newBack" type="text" id="back">-->
+      <!--</label>-->
+      <!--<button v-on:click="addNew">Add a New Card</button>-->
+      <!--<span class="error" v-show="error">Oops! Flashcards need a front and a back.</span>-->
+    <!--</div>-->
 
     <ul class="flashcard-list">
       <li v-for="(card, index) in cards" v-on:click="toggleCard(card)">
         <transition name="flip">
           <p class="card" v-if="!card.flipped" key="front">
             {{card.front}}
-            <span class="delete-card" v-on:click="cards.splice(index, 1)">X</span>
+            <span class="delete-card">#{{card.class}}</span>
+            <!--<span class="delete-card" v-on:click="cards.splice(index, 1)">X</span>-->
           </p>
           <p class="card" v-else key="back">
             {{card.back}}
-            <span class="delete-card" v-on:click="cards.splice(index, 1)">X</span>
+            <!--<span class="delete-card" v-on:click="cards.splice(index, 1)">X</span>-->
           </p>
         </transition>
       </li>

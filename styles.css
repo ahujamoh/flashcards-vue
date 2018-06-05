@@ -42,31 +42,31 @@ li {
 }
 
 li:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
-li:nth-child(-n+3) .card{
+li:nth-child(7n+1) .card{
   background-color: #e65f51;
   }
 
-li:nth-child(2n+1) .card{
+li:nth-child(7n+2) .card{
   background-color: #a17de9;
   }
 
-li:nth-child(4n) .card{
+li:nth-child(7n+3) .card{
   background-color: #feca34;
   }
 
-li:nth-child(5n-2) .card{
-  background-color: #51aae5;
+li:nth-child(7n+4) .card{
+  background-color: #e5e54a;
   }
 
-li:nth-child(4n+4) .card{
-  background-color: #feca34;
+li:nth-child(7n+5) .card{
+  background-color: #19fe2a;
   }
 
-li:nth-child(-7n+7) .card{
-  background-color: #e46055;
+li:nth-child(7n+6) .card{
+  background-color: #b35be4;
   }
 
 .delete-card {
