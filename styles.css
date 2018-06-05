@@ -46,29 +46,32 @@ li:hover{
 }
 
 li:nth-child(7n+1) .card{
-  background-color: #e65f51;
+  background-color: #1abc9c;
   }
 
 li:nth-child(7n+2) .card{
-  background-color: #a17de9;
+  background-color: #e67e22;
   }
 
 li:nth-child(7n+3) .card{
-  background-color: #feca34;
+  background-color: #2980b9;
   }
 
 li:nth-child(7n+4) .card{
-  background-color: #c0e532;
+  background-color: #9b59b6;
   }
 
 li:nth-child(7n+5) .card{
-  background-color: #fe798c;
+  background-color: #2c3e50;
   }
 
 li:nth-child(7n+6) .card{
-  background-color: #b35be4;
+  background-color: #c0392b;
   }
 
+li:nth-child(7n) .card{
+  background-color: #95a5a6;
+}
 .delete-card {
   position: absolute;
   right: 0;
